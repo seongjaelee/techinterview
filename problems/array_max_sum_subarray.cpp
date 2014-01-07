@@ -4,7 +4,7 @@ using namespace std;
 
 void find_max_sub_subarray(const int * arr, int size, int & init, int & last) {
     init = 0;
-    last = 0;
+    last = 1;
 
     int max_ending_here = arr[0];
     int max_so_far = arr[0];
